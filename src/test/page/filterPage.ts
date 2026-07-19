@@ -1,0 +1,33 @@
+import {Page, Locator } from "@playwright/test";
+import { basepage } from "./basepage";
+import { getEnv } from "../utilites/envReader";
+
+export class filterPage extends basepage{
+    readonly filter:Locator
+    readonly projectName:Locator
+    readonly projectText :Locator
+
+    constructor(page:Page){
+        super(page)
+        this.filter= page.locator("(//li[@role='menuitem'])[1]")
+        this.projectName=page.locator("//li[@data-value='ABC']")
+        this.projectText=page.locator("//tr[1][@class='MuiTableRow-root css-10x2zbj']//td[1]")
+
+    }
+
+    async navigate(){
+        getEnv()
+        await this.page.goto(process.env.baseurl!)
+    }
+
+    async clickFilter(){
+        await this.click(this.filter)
+    }
+
+    async clickprojectName(){
+        await this.click(this.projectName)
+    }
+    async textProjectName(){
+        return (await this.locator(this.projectText))
+    }
+}
