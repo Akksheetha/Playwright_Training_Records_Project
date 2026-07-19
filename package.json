@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "cross-env ENV=qa cucumber-js",
-    "rerun": "cross-env ENV=qa cucumber-js @rerun/rerun.txt"
+    "rerun": "cross-env ENV=qa cucumber-js @rerun/rerun.txt",
+    "debug": "cross-env PWDEBUG=1 cucumber-js"
   },
   "keywords": [],
   "author": "",

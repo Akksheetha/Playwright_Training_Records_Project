@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 309892600
+              "duration": 141066400
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 669989700
+              "duration": 2576941199
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1678835100
+              "duration": 138149099
             }
           },
           {
@@ -53,20 +53,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 373841000
+              "duration": 404200299
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 11,
-            "name": "the user should see the \"ABC\" project Name",
+            "name": "the user should see the ABC project Name",
             "match": {
               "location": "src\\test\\steps\\filterStep.ts:19"
             },
             "result": {
               "status": "passed",
-              "duration": 10351799
+              "duration": 10684100
             }
           },
           {
@@ -74,7 +74,86 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 26744099
+              "duration": 23461199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "filter-functiomality;filter-records-by-training-type",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Filter records by Training Type",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 98235000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user launch the application",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1843227899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "the user click the Training Type filter",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 126383200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the user select the udemy",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 377196600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the user should see the udemy Training Typerecords",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12088499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 16460600
             }
           }
         ],
