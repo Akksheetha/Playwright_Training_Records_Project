@@ -10,4 +10,3 @@ Feature Description
               And the user select the project of ABC
              Then the user should see the "ABC" project Name
 
-        
