@@ -2,6 +2,7 @@ import { Before,BeforeAll,After,AfterAll } from "@cucumber/cucumber";
 import { Browser, chromium } from "@playwright/test";
 import { customWorld } from "../world/customWorrld";
 import { Status } from "@cucumber/cucumber";
+import { filterPage } from "../page/filterPage";
 
 
 let browser:Browser
@@ -13,6 +14,7 @@ Before(async function(this:customWorld){
     this.browser=browser
     this.context=await this.browser.newContext()
     this.page= await this.context.newPage()
+    this.filter=new filterPage(this.page)
 
 })
 

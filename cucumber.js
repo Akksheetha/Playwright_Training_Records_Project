@@ -21,7 +21,7 @@ module.exports={
         ],
 
         publishQuiet:true,
-        dryRun:true,  //false for real automation
+        dryRun:false,  //false for real automation
 
         format: [
             "progress",

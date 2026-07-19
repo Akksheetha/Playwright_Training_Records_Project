@@ -1,0 +1,92 @@
+[
+  {
+    "description": "Feature Description",
+    "elements": [
+      {
+        "description": "",
+        "id": "filter-functiomality;filter-records-by-project-name",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Filter records by Project Name",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 162794599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user launch the application",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1069633000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user click project Name filter",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 831174900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the user select the project of ABC",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 436794800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the user should see the \"ABC\" project Name",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11150800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 36674100
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "filter-functiomality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Filter functiomality",
+    "tags": [],
+    "uri": "src\\test\\feature\\filter.feature"
+  }
+]
