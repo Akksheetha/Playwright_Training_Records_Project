@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "cross-env ENV=qa cucumber-js",
+    "rerun": "cross-env ENV=qa cucumber-js @rerun/rerun.txt"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
