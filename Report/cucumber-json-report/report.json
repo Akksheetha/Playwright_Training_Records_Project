@@ -1,20 +1,20 @@
 [
   {
-    "description": "Description:\n    As a user,\n    I want to edit trainee training details.",
+    "description": "Description:\n    As a user,\n    I want to delete a trainee training record.",
     "elements": [
       {
         "description": "",
-        "id": "akksheetha_15-07-2026_edit-the-trainee-training-records-in-the-site;edit-trainee-training-details-successfully",
+        "id": "vithya_20-07-2026_delete-the-trainee-training-record-in-the-site;delete-trainee-training-record-successfully",
         "keyword": "Scenario",
         "line": 11,
-        "name": "Edit trainee training details successfully",
+        "name": "Delete trainee training record successfully",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 278746799
+              "duration": 158644000
             }
           },
           {
@@ -27,59 +27,46 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2733976600
+              "duration": 2771900400
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 13,
-            "name": "User clicks the edit icon of an existing training record",
+            "name": "User filters the training record by employee name",
             "match": {
-              "location": "src\\test\\steps\\editSteps.ts:17"
+              "location": "src\\test\\steps\\deleteStep.ts:7"
             },
             "result": {
               "status": "passed",
-              "duration": 184013400
+              "duration": 88789899
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 14,
-            "name": "User updates the trainee training details",
+            "name": "User clicks the delete icon of the filtered record",
             "match": {
-              "location": "src\\test\\steps\\editSteps.ts:23"
+              "location": "src\\test\\steps\\deleteStep.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 164643600
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 15,
-            "name": "User clicks the Update button",
-            "match": {
-              "location": "src\\test\\steps\\editSteps.ts:35"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 44797400
+              "duration": 45538899
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 16,
-            "name": "Training record should be updated successfully",
+            "line": 15,
+            "name": "Training record should be deleted successfully",
             "match": {
-              "location": "src\\test\\steps\\editSteps.ts:42"
+              "location": "src\\test\\steps\\deleteStep.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 2401643500
+              "duration": 1958809199
             }
           },
           {
@@ -87,29 +74,29 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 106148799
+              "duration": 23278500
             }
           }
         ],
         "tags": [
           {
-            "name": "@Akksheetha",
+            "name": "@Vithya",
             "line": 1
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "akksheetha_15-07-2026_edit-the-trainee-training-records-in-the-site",
+    "id": "vithya_20-07-2026_delete-the-trainee-training-record-in-the-site",
     "line": 2,
     "keyword": "Feature",
-    "name": "Akksheetha_15-07-2026_Edit the trainee training records in the site",
+    "name": "Vithya_20-07-2026_Delete the trainee training record in the site",
     "tags": [
       {
-        "name": "@Akksheetha",
+        "name": "@Vithya",
         "line": 1
       }
     ],
-    "uri": "src\\test\\feature\\editcourse.feature"
+    "uri": "src\\test\\feature\\delete.feature"
   }
 ]

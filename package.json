@@ -6,7 +6,8 @@
   "scripts": {
     "test": "cross-env ENV=qa cucumber-js",
     "rerun": "cross-env ENV=qa cucumber-js @rerun/rerun.txt",
-    "debug": "cross-env PWDEBUG=1 cucumber-js"
+    "debug": "cross-env PWDEBUG=1 cucumber-js",
+    "Vithya": "cross-env ENV=qa cucumber-js --tags \"@Vithya\""
   },
   "keywords": [],
   "author": "",
@@ -18,7 +19,7 @@
     "typescript": "^5.9.2"
   },
   "dependencies": {
-    "@cucumber/cucumber": "^13.1.0",
+    "@cucumber/cucumber": "^11.3.0",
     "allure-commandline": "^2.43.0",
     "allure-cucumberjs": "^3.10.2",
     "allure-playwright": "^3.10.2",
