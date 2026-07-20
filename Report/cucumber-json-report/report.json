@@ -1,151 +1,85 @@
 [
   {
-    "description": "Feature Description",
+    "description": "Description:\n    As a user,\n    I want to edit trainee training details.",
     "elements": [
       {
         "description": "",
-        "id": "filter-functiomality;filter-records-by-project-name",
+        "id": "akksheetha_15-07-2026_edit-the-trainee-training-records-in-the-site;edit-trainee-training-details-successfully",
         "keyword": "Scenario",
-        "line": 8,
-        "name": "Filter records by Project Name",
+        "line": 11,
+        "name": "Edit trainee training details successfully",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 141066400
+              "duration": 278746799
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 6,
-            "name": "the user launch the application",
+            "line": 9,
+            "name": "user is on the homepage of the site",
             "match": {
-              "location": "src\\test\\steps\\filterStep.ts:7"
+              "location": "src\\test\\steps\\editSteps.ts:10"
             },
             "result": {
               "status": "passed",
-              "duration": 2576941199
+              "duration": 2733976600
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 9,
-            "name": "the user click project Name filter",
+            "line": 13,
+            "name": "User clicks the edit icon of an existing training record",
             "match": {
-              "location": "src\\test\\steps\\filterStep.ts:11"
+              "location": "src\\test\\steps\\editSteps.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 138149099
+              "duration": 184013400
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 10,
-            "name": "the user select the project of ABC",
-            "match": {
-              "location": "src\\test\\steps\\filterStep.ts:15"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 404200299
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 11,
-            "name": "the user should see the ABC project Name",
-            "match": {
-              "location": "src\\test\\steps\\filterStep.ts:19"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 10684100
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 23461199
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "filter-functiomality;filter-records-by-training-type",
-        "keyword": "Scenario",
-        "line": 13,
-        "name": "Filter records by Training Type",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 98235000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 6,
-            "name": "the user launch the application",
-            "match": {
-              "location": "src\\test\\steps\\filterStep.ts:7"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1843227899
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
             "line": 14,
-            "name": "the user click the Training Type filter",
+            "name": "User updates the trainee training details",
             "match": {
-              "location": "src\\test\\steps\\filterStep.ts:26"
+              "location": "src\\test\\steps\\editSteps.ts:23"
             },
             "result": {
               "status": "passed",
-              "duration": 126383200
+              "duration": 164643600
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 15,
-            "name": "the user select the udemy",
+            "name": "User clicks the Update button",
             "match": {
-              "location": "src\\test\\steps\\filterStep.ts:30"
+              "location": "src\\test\\steps\\editSteps.ts:35"
             },
             "result": {
               "status": "passed",
-              "duration": 377196600
+              "duration": 44797400
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 16,
-            "name": "the user should see the udemy Training Typerecords",
+            "name": "Training record should be updated successfully",
             "match": {
-              "location": "src\\test\\steps\\filterStep.ts:34"
+              "location": "src\\test\\steps\\editSteps.ts:42"
             },
             "result": {
               "status": "passed",
-              "duration": 12088499
+              "duration": 2401643500
             }
           },
           {
@@ -153,19 +87,29 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 16460600
+              "duration": 106148799
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@Akksheetha",
+            "line": 1
+          }
+        ],
         "type": "scenario"
       }
     ],
-    "id": "filter-functiomality",
-    "line": 1,
+    "id": "akksheetha_15-07-2026_edit-the-trainee-training-records-in-the-site",
+    "line": 2,
     "keyword": "Feature",
-    "name": "Filter functiomality",
-    "tags": [],
-    "uri": "src\\test\\feature\\filter.feature"
+    "name": "Akksheetha_15-07-2026_Edit the trainee training records in the site",
+    "tags": [
+      {
+        "name": "@Akksheetha",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\editcourse.feature"
   }
 ]
