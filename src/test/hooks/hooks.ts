@@ -3,6 +3,7 @@ import { Browser, chromium } from "@playwright/test";
 import { customWorld } from "../world/customWorrld";
 import { Status } from "@cucumber/cucumber";
 import { filterPage } from "../page/filterPage";
+import { editPage } from "../page/editPage";
 
 
 let browser:Browser
@@ -15,6 +16,7 @@ Before(async function(this:customWorld){
     this.context=await this.browser.newContext()
     this.page= await this.context.newPage()
     this.filter=new filterPage(this.page)
+    this.edit = new editPage(this.page);
 
 })
 
