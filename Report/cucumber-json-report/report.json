@@ -14,12 +14,32 @@
             "hidden": true,
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 1730645800
+=======
               "duration": 158644000
+>>>>>>> 930275549b7346f9c54ed634348762b2a00ffb43
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
+<<<<<<< HEAD
+            "line": 6,
+            "name": "the user launch the application",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4868691899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+=======
+>>>>>>> 930275549b7346f9c54ed634348762b2a00ffb43
             "line": 9,
             "name": "user is on the homepage of the site",
             "match": {
@@ -27,7 +47,77 @@
             },
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 312479800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the user select the project of ABC",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 723646399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the user should see the ABC project Name",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26976300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 55822199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "filter-functiomality;filter-records-by-training-type",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Filter records by Training Type",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 181885299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user launch the application",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2553755300
+=======
               "duration": 2771900400
+>>>>>>> 930275549b7346f9c54ed634348762b2a00ffb43
             }
           },
           {
@@ -36,11 +126,19 @@
             "line": 13,
             "name": "User filters the training record by employee name",
             "match": {
+<<<<<<< HEAD
+              "location": "src\\test\\steps\\filterStep.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 165633200
+=======
               "location": "src\\test\\steps\\deleteStep.ts:7"
             },
             "result": {
               "status": "passed",
               "duration": 88789899
+>>>>>>> 930275549b7346f9c54ed634348762b2a00ffb43
             }
           },
           {
@@ -49,11 +147,19 @@
             "line": 14,
             "name": "User clicks the delete icon of the filtered record",
             "match": {
+<<<<<<< HEAD
+              "location": "src\\test\\steps\\filterStep.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 689142199
+=======
               "location": "src\\test\\steps\\deleteStep.ts:12"
             },
             "result": {
               "status": "passed",
               "duration": 45538899
+>>>>>>> 930275549b7346f9c54ed634348762b2a00ffb43
             }
           },
           {
@@ -62,11 +168,19 @@
             "line": 15,
             "name": "Training record should be deleted successfully",
             "match": {
+<<<<<<< HEAD
+              "location": "src\\test\\steps\\filterStep.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25348500
+=======
               "location": "src\\test\\steps\\deleteStep.ts:17"
             },
             "result": {
               "status": "passed",
               "duration": 1958809199
+>>>>>>> 930275549b7346f9c54ed634348762b2a00ffb43
             }
           },
           {
@@ -74,7 +188,11 @@
             "hidden": true,
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 36681000
+=======
               "duration": 23278500
+>>>>>>> 930275549b7346f9c54ed634348762b2a00ffb43
             }
           }
         ],
