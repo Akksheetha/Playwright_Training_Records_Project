@@ -18,4 +18,15 @@ export class basepage{
     async locator(locator:Locator){
         return await(locator)
     }
+     async fillInput(locator: Locator, value: string) {
+        await locator.fill(value);
+    }
+
+    async selectOption(locator: Locator, value: string) {
+        await locator.selectOption({ label: value });
+    }
+     async isVisible(locator: Locator): Promise<boolean> {
+        return await locator.isVisible();
+    }
+
 }
