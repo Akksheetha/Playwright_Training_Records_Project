@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 141066400
+              "duration": 1730645800
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2576941199
+              "duration": 4868691899
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 138149099
+              "duration": 312479800
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 404200299
+              "duration": 723646399
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10684100
+              "duration": 26976300
             }
           },
           {
@@ -74,7 +74,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 23461199
+              "duration": 55822199
             }
           }
         ],
@@ -93,7 +93,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 98235000
+              "duration": 181885299
             }
           },
           {
@@ -106,7 +106,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1843227899
+              "duration": 2553755300
             }
           },
           {
@@ -115,11 +115,11 @@
             "line": 14,
             "name": "the user click the Training Type filter",
             "match": {
-              "location": "src\\test\\steps\\filterStep.ts:26"
+              "location": "src\\test\\steps\\filterStep.ts:25"
             },
             "result": {
               "status": "passed",
-              "duration": 126383200
+              "duration": 165633200
             }
           },
           {
@@ -128,11 +128,11 @@
             "line": 15,
             "name": "the user select the udemy",
             "match": {
-              "location": "src\\test\\steps\\filterStep.ts:30"
+              "location": "src\\test\\steps\\filterStep.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 377196600
+              "duration": 689142199
             }
           },
           {
@@ -141,11 +141,11 @@
             "line": 16,
             "name": "the user should see the udemy Training Typerecords",
             "match": {
-              "location": "src\\test\\steps\\filterStep.ts:34"
+              "location": "src\\test\\steps\\filterStep.ts:33"
             },
             "result": {
               "status": "passed",
-              "duration": 12088499
+              "duration": 25348500
             }
           },
           {
@@ -153,7 +153,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 16460600
+              "duration": 36681000
             }
           }
         ],
