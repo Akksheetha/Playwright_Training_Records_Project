@@ -15,10 +15,10 @@
   "devDependencies": {
     "@playwright/test": "^1.61.1",
     "@types/node": "^26.1.1",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   },
   "dependencies": {
-    "@cucumber/cucumber": "^13.1.0",
+    "@cucumber/cucumber": "^13.2.0",
     "allure-commandline": "^2.43.0",
     "allure-cucumberjs": "^3.10.2",
     "allure-playwright": "^3.10.2",

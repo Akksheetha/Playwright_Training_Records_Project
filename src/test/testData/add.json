@@ -1,0 +1,26 @@
+{
+  "validTraining": {
+    "projectName": "ABC",
+    "empId": "EMP038",
+    "employeeName": "Dhanya",
+    "course": "Performance Testing",
+    "trainerName": "John",
+    "trainingType": "Udemy",
+    "startDate": "2026-07-20",
+"endDate": "2026-07-20",
+    "status": "Not Started",
+    "completedPercentage": "0"
+  },
+ "invalidTrainingWithoutTrainer": {
+    "projectName": "CDE",
+    "empId": "EMP039",
+    "employeeName": "Sowmi",
+    "course": "JMeter",
+    "trainerName": "",
+    "trainingType": "Udemy",
+    "startDate": "2026-07-20",
+    "endDate": "2026-07-20",
+    "status": "Not Started",
+    "completedPercentage": "0"
+}
+}

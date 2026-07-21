@@ -3,11 +3,12 @@ import { Browser, chromium } from "@playwright/test";
 import { customWorld } from "../world/customWorrld";
 import { Status } from "@cucumber/cucumber";
 import { filterPage } from "../page/filterPage";
+import { AddPage } from "../page/AddPage";
 
 
 let browser:Browser
 BeforeAll(async()=>{
-    browser= await chromium.launch({headless:true})
+    browser= await chromium.launch({headless:false})
 })
 
 Before(async function(this:customWorld){
@@ -15,6 +16,7 @@ Before(async function(this:customWorld){
     this.context=await this.browser.newContext()
     this.page= await this.context.newPage()
     this.filter=new filterPage(this.page)
+    this.addpage=new AddPage(this.page);
 
 })
 
