@@ -6,3 +6,28 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+# Reports
+Report/log/
+Report/screenshort/
+Report/cucumber-html-report/
+Report/cucumber-json-report/
+
+# Allure reports
+allure-results/
+allure-report/
+
+# Playwright reports
+playwright-report/
+test-results/
+
+# Node modules
+node_modules/
+
+# Environment files
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
