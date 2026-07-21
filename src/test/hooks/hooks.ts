@@ -6,6 +6,7 @@ import { filterPage } from "../page/filterPage";
 import { AddPage } from "../page/AddPage";
 import { editPage } from "../page/editPage";
 import {deletePage} from "../page/deletPage";
+import { HomePage } from "../page/homepage";
 setDefaultTimeout(30 * 1000);
 
 
@@ -22,7 +23,7 @@ Before(async function(this:customWorld){
     this.addpage=new AddPage(this.page);
     this.edit = new editPage(this.page);
     this.delete=new deletePage(this.page);
-
+    this.homePage = new HomePage(this.page)
 })
 
 After(async function(this:customWorld,{result ,pickle}){

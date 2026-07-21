@@ -1,9 +1,10 @@
 import { setWorldConstructor,World } from "@cucumber/cucumber";
-import { Browser, BrowserContext, Page } from "@playwright/test";
+import { Browser, BrowserContext, Download, Page } from "@playwright/test";
 import { filterPage } from "../page/filterPage";
 import { AddPage } from "../page/AddPage";
 import { editPage } from "../page/editPage";
 import { deletePage } from "../page/deletPage";
+import { HomePage } from "../page/homepage";
 
 export class customWorld extends World{
     browser!:Browser
@@ -13,5 +14,7 @@ export class customWorld extends World{
     addpage!:AddPage
     edit!: editPage
     delete!: deletePage
+    homePage !: HomePage
+    download !: Download
 }
  setWorldConstructor(customWorld)
