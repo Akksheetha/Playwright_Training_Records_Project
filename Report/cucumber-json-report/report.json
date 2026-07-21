@@ -1,0 +1,89 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "export-excel-data;verify-export-to-excel-functionality",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Verify Export to Excel functionality",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 78367400
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1437553199
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on the homepage of the site",
+            "match": {
+              "location": "src\\test\\steps\\editSteps.ts:10"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 83897500
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user click on the Export to Excel button",
+            "match": {
+              "location": "src\\test\\steps\\downloadStep.ts:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 120425900
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the Excel file should be downloaded successfully",
+            "match": {
+              "location": "src\\test\\steps\\downloadStep.ts:9"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 9065500
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Darshan",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "export-excel-data",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Export Excel Data",
+    "tags": [
+      {
+        "name": "@Darshan",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\download.feature"
+  }
+]
