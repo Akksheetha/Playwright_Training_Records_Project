@@ -1,102 +1,89 @@
 [
   {
-    "description": "Description:\n    As a user,\n    I want to delete a trainee training record.",
+    "description": "",
     "elements": [
       {
         "description": "",
-        "id": "vithya_20-07-2026_delete-the-trainee-training-record-in-the-site;delete-trainee-training-record-successfully",
+        "id": "export-excel-data;verify-export-to-excel-functionality",
         "keyword": "Scenario",
-        "line": 11,
-        "name": "Delete trainee training record successfully",
+        "line": 7,
+        "name": "Verify Export to Excel functionality",
         "steps": [
           {
-            "keyword": "Before",
-            "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 158644000
-            }
+              "duration": 78367400
+            },
+            "keyword": "Before",
+            "hidden": true
           },
           {
+            "result": {
+              "status": "passed",
+              "duration": 1437553199
+            },
             "arguments": [],
             "keyword": "Given ",
-            "line": 9,
+            "line": 5,
             "name": "user is on the homepage of the site",
             "match": {
               "location": "src\\test\\steps\\editSteps.ts:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2771900400
             }
           },
           {
+            "result": {
+              "status": "passed",
+              "duration": 83897500
+            },
             "arguments": [],
             "keyword": "When ",
-            "line": 13,
-            "name": "User filters the training record by employee name",
+            "line": 8,
+            "name": "the user click on the Export to Excel button",
             "match": {
-              "location": "src\\test\\steps\\deleteStep.ts:7"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 88789899
+              "location": "src\\test\\steps\\downloadStep.ts:5"
             }
           },
           {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 14,
-            "name": "User clicks the delete icon of the filtered record",
-            "match": {
-              "location": "src\\test\\steps\\deleteStep.ts:12"
-            },
             "result": {
               "status": "passed",
-              "duration": 45538899
-            }
-          },
-          {
+              "duration": 120425900
+            },
             "arguments": [],
             "keyword": "Then ",
-            "line": 15,
-            "name": "Training record should be deleted successfully",
+            "line": 9,
+            "name": "the Excel file should be downloaded successfully",
             "match": {
-              "location": "src\\test\\steps\\deleteStep.ts:17"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1958809199
+              "location": "src\\test\\steps\\downloadStep.ts:9"
             }
           },
           {
-            "keyword": "After",
-            "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 23278500
-            }
+              "duration": 9065500
+            },
+            "keyword": "After",
+            "hidden": true
           }
         ],
         "tags": [
           {
-            "name": "@Vithya",
+            "name": "@Darshan",
             "line": 1
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "vithya_20-07-2026_delete-the-trainee-training-record-in-the-site",
+    "id": "export-excel-data",
     "line": 2,
     "keyword": "Feature",
-    "name": "Vithya_20-07-2026_Delete the trainee training record in the site",
+    "name": "Export Excel Data",
     "tags": [
       {
-        "name": "@Vithya",
+        "name": "@Darshan",
         "line": 1
       }
     ],
-    "uri": "src\\test\\feature\\delete.feature"
+    "uri": "src\\test\\feature\\download.feature"
   }
 ]
