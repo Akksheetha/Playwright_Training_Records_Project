@@ -8,6 +8,14 @@
         "keyword": "Scenario",
         "line": 7,
         "name": "Add training with valid training details",
+    "description": "Description:\n    As a user,\n    I want to delete a trainee training record.",
+    "elements": [
+      {
+        "description": "",
+        "id": "vithya_20-07-2026_delete-the-trainee-training-record-in-the-site;delete-trainee-training-record-successfully",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Delete trainee training record successfully",
         "steps": [
           {
             "result": {
@@ -81,6 +89,7 @@
             "name": "user search the employee ID from the JSON file",
             "match": {
               "location": "src\\test\\steps\\AddStep.ts:22"
+              "duration": 158644000
             }
           },
           {
@@ -261,8 +270,8 @@
             },
             "arguments": [],
             "keyword": "When ",
-            "line": 9,
-            "name": "the user click project Name filter",
+            "line": 13,
+            "name": "User filters the training record by employee name",
             "match": {
               "location": "src\\test\\steps\\filterStep.ts:11"
             }
@@ -274,8 +283,8 @@
             },
             "arguments": [],
             "keyword": "And ",
-            "line": 10,
-            "name": "the user select the project of ABC",
+            "line": 14,
+            "name": "User clicks the delete icon of the filtered record",
             "match": {
               "location": "src\\test\\steps\\filterStep.ts:15"
             }
@@ -287,8 +296,8 @@
             },
             "arguments": [],
             "keyword": "Then ",
-            "line": 11,
-            "name": "the user should see the ABC project Name",
+            "line": 15,
+            "name": "Training record should be deleted successfully",
             "match": {
               "location": "src\\test\\steps\\filterStep.ts:19"
             }
@@ -381,15 +390,19 @@
             "hidden": true
           }
         ],
-        "tags": [],
         "type": "scenario"
       }
     ],
-    "id": "filter-functiomality",
-    "line": 1,
+    "id": "vithya_20-07-2026_delete-the-trainee-training-record-in-the-site",
+    "line": 2,
     "keyword": "Feature",
-    "name": "Filter functiomality",
-    "tags": [],
-    "uri": "src\\test\\feature\\filter.feature"
+    "name": "Vithya_20-07-2026_Delete the trainee training record in the site",
+    "tags": [
+      {
+        "name": "@Vithya",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\delete.feature"
   }
 ]
