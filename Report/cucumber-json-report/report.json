@@ -1,25 +1,30 @@
 [
   {
-    "description": "Feature Description",
+    "description": "Description:\n    As a user,\n    I want to delete a trainee training record.",
     "elements": [
       {
         "description": "",
-        "id": "filter-functiomality;filter-records-by-project-name",
+        "id": "vithya_20-07-2026_delete-the-trainee-training-record-in-the-site;delete-trainee-training-record-successfully",
         "keyword": "Scenario",
-        "line": 8,
-        "name": "Filter records by Project Name",
+        "line": 11,
+        "name": "Delete trainee training record successfully",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 1730645800
+=======
+              "duration": 158644000
+>>>>>>> 930275549b7346f9c54ed634348762b2a00ffb43
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
+<<<<<<< HEAD
             "line": 6,
             "name": "the user launch the application",
             "match": {
@@ -33,13 +38,16 @@
           {
             "arguments": [],
             "keyword": "When ",
+=======
+>>>>>>> 930275549b7346f9c54ed634348762b2a00ffb43
             "line": 9,
-            "name": "the user click project Name filter",
+            "name": "user is on the homepage of the site",
             "match": {
-              "location": "src\\test\\steps\\filterStep.ts:11"
+              "location": "src\\test\\steps\\editSteps.ts:10"
             },
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 312479800
             }
           },
@@ -107,45 +115,72 @@
             "result": {
               "status": "passed",
               "duration": 2553755300
+=======
+              "duration": 2771900400
+>>>>>>> 930275549b7346f9c54ed634348762b2a00ffb43
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 14,
-            "name": "the user click the Training Type filter",
+            "line": 13,
+            "name": "User filters the training record by employee name",
             "match": {
+<<<<<<< HEAD
               "location": "src\\test\\steps\\filterStep.ts:25"
             },
             "result": {
               "status": "passed",
               "duration": 165633200
+=======
+              "location": "src\\test\\steps\\deleteStep.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88789899
+>>>>>>> 930275549b7346f9c54ed634348762b2a00ffb43
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 15,
-            "name": "the user select the udemy",
+            "line": 14,
+            "name": "User clicks the delete icon of the filtered record",
             "match": {
+<<<<<<< HEAD
               "location": "src\\test\\steps\\filterStep.ts:29"
             },
             "result": {
               "status": "passed",
               "duration": 689142199
+=======
+              "location": "src\\test\\steps\\deleteStep.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45538899
+>>>>>>> 930275549b7346f9c54ed634348762b2a00ffb43
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 16,
-            "name": "the user should see the udemy Training Typerecords",
+            "line": 15,
+            "name": "Training record should be deleted successfully",
             "match": {
+<<<<<<< HEAD
               "location": "src\\test\\steps\\filterStep.ts:33"
             },
             "result": {
               "status": "passed",
               "duration": 25348500
+=======
+              "location": "src\\test\\steps\\deleteStep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1958809199
+>>>>>>> 930275549b7346f9c54ed634348762b2a00ffb43
             }
           },
           {
@@ -153,19 +188,33 @@
             "hidden": true,
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 36681000
+=======
+              "duration": 23278500
+>>>>>>> 930275549b7346f9c54ed634348762b2a00ffb43
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@Vithya",
+            "line": 1
+          }
+        ],
         "type": "scenario"
       }
     ],
-    "id": "filter-functiomality",
-    "line": 1,
+    "id": "vithya_20-07-2026_delete-the-trainee-training-record-in-the-site",
+    "line": 2,
     "keyword": "Feature",
-    "name": "Filter functiomality",
-    "tags": [],
-    "uri": "src\\test\\feature\\filter.feature"
+    "name": "Vithya_20-07-2026_Delete the trainee training record in the site",
+    "tags": [
+      {
+        "name": "@Vithya",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\delete.feature"
   }
 ]
