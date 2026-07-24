@@ -8,7 +8,8 @@
     "rerun": "cross-env ENV=qa cucumber-js @rerun/rerun.txt",
     "debug": "cross-env PWDEBUG=1 cucumber-js",
     "Vithya": "cross-env ENV=qa cucumber-js --tags \"@Vithya\"",
-    "Darshan": "cross-env ENV=qa cucumber-js --tags \"@Darshan\""
+    "Darshan": "cross-env ENV=qa cucumber-js --tags \"@Darshan\"",
+    "Janani": "cross-env ENV=qa cucumber-js --tags \"@Janani\""
   },
   "keywords": [],
   "author": "",
@@ -27,7 +28,7 @@
     "cross-env": "^10.1.0",
     "csv-parse": "^7.0.1",
     "dotenv": "^17.4.2",
-    "multiple-cucumber-html-reporter": "^3.8.0",
+    "multiple-cucumber-html-reporter": "^3.10.0",
     "ts-node": "^10.9.2",
     "winston": "^3.19.0"
   }
