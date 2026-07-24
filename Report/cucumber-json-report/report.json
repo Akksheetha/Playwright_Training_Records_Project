@@ -4,15 +4,15 @@
     "elements": [
       {
         "description": "",
-        "id": "export-excel-data;verify-export-to-excel-functionality",
+        "id": "add-training---employee-training-records;add-training-with-valid-training-details",
         "keyword": "Scenario",
         "line": 7,
-        "name": "Verify Export to Excel functionality",
+        "name": "Add training with valid training details",
         "steps": [
           {
             "result": {
               "status": "passed",
-              "duration": 78367400
+              "duration": 262429500
             },
             "keyword": "Before",
             "hidden": true
@@ -20,46 +20,85 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1437553199
+              "duration": 1899028400
             },
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "user is on the homepage of the site",
+            "name": "the user launch the application",
             "match": {
-              "location": "src\\test\\steps\\editSteps.ts:10"
+              "location": "src\\test\\steps\\filterStep.ts:7"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 83897500
+              "duration": 151681200
             },
             "arguments": [],
             "keyword": "When ",
             "line": 8,
-            "name": "the user click on the Export to Excel button",
+            "name": "user clicks the Add button",
             "match": {
-              "location": "src\\test\\steps\\downloadStep.ts:5"
+              "location": "src\\test\\steps\\AddStep.ts:6"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 120425900
+              "duration": 1098385800
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user enter the training details from the JSON file",
+            "match": {
+              "location": "src\\test\\steps\\AddStep.ts:10"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 748854600
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user click on the ADD button",
+            "match": {
+              "location": "src\\test\\steps\\AddStep.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1482515800
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user search the employee ID from the JSON file",
+            "match": {
+              "location": "src\\test\\steps\\AddStep.ts:22"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 16070600
             },
             "arguments": [],
             "keyword": "Then ",
-            "line": 9,
-            "name": "the Excel file should be downloaded successfully",
+            "line": 12,
+            "name": "the employee ID should match the JSON employee ID",
             "match": {
-              "location": "src\\test\\steps\\downloadStep.ts:9"
+              "location": "src\\test\\steps\\AddStep.ts:26"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 9065500
+              "duration": 59417699
             },
             "keyword": "After",
             "hidden": true
@@ -67,23 +106,120 @@
         ],
         "tags": [
           {
-            "name": "@Darshan",
+            "name": "@Janani",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-training---employee-training-records;add-training-without-trainer-name-shows-validation-alert",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Add training without Trainer Name shows validation alert",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 289275200
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1856986300
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user launch the application",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:7"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 150060600
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "user clicks the Add button",
+            "match": {
+              "location": "src\\test\\steps\\AddStep.ts:6"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 989301299
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "user enter the training details without trainer name from the JSON file",
+            "match": {
+              "location": "src\\test\\steps\\AddStep.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 891965899
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "user click on the ADD button",
+            "match": {
+              "location": "src\\test\\steps\\AddStep.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4170799
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the validation alert \"Trainer Name is required.\" should be displayed",
+            "match": {
+              "location": "src\\test\\steps\\AddStep.ts:30"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 61225300
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Janani",
             "line": 1
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "export-excel-data",
+    "id": "add-training---employee-training-records",
     "line": 2,
     "keyword": "Feature",
-    "name": "Export Excel Data",
+    "name": "Add Training - Employee Training Records",
     "tags": [
       {
-        "name": "@Darshan",
+        "name": "@Janani",
         "line": 1
       }
     ],
-    "uri": "src\\test\\feature\\download.feature"
+    "uri": "src\\test\\feature\\Add.feature"
   }
 ]
