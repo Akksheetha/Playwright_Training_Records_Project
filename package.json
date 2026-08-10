@@ -9,7 +9,7 @@
     "rerun": "cross-env ENV=qa cucumber-js @rerun/rerun.txt",
     "debug": "cross-env PWDEBUG=1 cucumber-js",
     "Vithya": "cross-env ENV=qa cucumber-js --tags \"@Vithya\"",
-    "test:jeeva": "cross-env ENV=qa cucumber-js --tags @jeeva",
+    "test:jeeva": "cross-env ENV=qa cucumber-js --tags \"@jeeva\"",
     "Darshan": "cross-env ENV=qa cucumber-js --tags \"@Darshan\"",
     "Janani": "cross-env ENV=qa cucumber-js --tags \"@Janani\""
   },
