@@ -1,6 +1,7 @@
 import {Page, Locator } from "@playwright/test";
 import { basepage } from "./basepage";
 import { getEnv } from "../utilites/envReader";
+import filterData from "../testData/filter.json";
 //1
 export class filterPage extends basepage{
     readonly filter:Locator
@@ -9,6 +10,8 @@ export class filterPage extends basepage{
     readonly filterTrainning:Locator
     readonly trainingType:Locator
     readonly TrainigTypeText:Locator
+    readonly EmpID_Box:Locator
+    readonly EMPIDTEXT:Locator
 
     constructor(page:Page){
         super(page)
@@ -18,6 +21,8 @@ export class filterPage extends basepage{
         this.filterTrainning=page.locator("(//li[@role='menuitem'])[2]")
         this.trainingType=page.locator("//li[@data-value='Udemy']")
         this.TrainigTypeText=page.locator("//tr[1][@class='MuiTableRow-root css-10x2zbj']//td[6]")
+        this.EmpID_Box=page.locator("//input[@id='_r_7_']")
+        this.EMPIDTEXT=page.locator("//tr[@class='MuiTableRow-root css-10x2zbj'][1]//td[2]")
     }
 
     async navigate(){
@@ -44,5 +49,17 @@ export class filterPage extends basepage{
 
     async TextTraining(){
       return (await this.locator(this.TrainigTypeText))
+      
     }
+  
+    async clickEmpID(){
+        await this.click(this.EmpID_Box)
+    }
+    async empIDtext_enter(){
+        await this.fillInput(this.EmpID_Box,filterData.filter.empID)
+    }
+    async EMPID_TEXT(){
+        return( await this.locator(this.EMPIDTEXT))
+    }
+
 }

@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 155711999
+              "duration": 274417199
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2708718899
+              "duration": 2622936700
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 189155600
+              "duration": 152772700
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 508751299
+              "duration": 380479300
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9403000
+              "duration": 21458599
             }
           },
           {
@@ -74,7 +74,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 38236099
+              "duration": 132690200
             }
           }
         ],
@@ -98,7 +98,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 94541700
+              "duration": 251735700
             }
           },
           {
@@ -111,7 +111,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2407696700
+              "duration": 2499882799
             }
           },
           {
@@ -124,7 +124,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 138191700
+              "duration": 131455100
             }
           },
           {
@@ -137,7 +137,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 423013100
+              "duration": 493986500
             }
           },
           {
@@ -150,7 +150,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11879100
+              "duration": 17157199
             }
           },
           {
@@ -158,7 +158,91 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 17143199
+              "duration": 83121599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jeeva",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jeevapranesh_16-07-2026_filter-functiomality_updated_18-07-2026;filter-records-by-emp-id",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Filter records by EMP ID",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 283468199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user launch the application",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2073897600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the user click the EMP ID Search",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95381199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the user typle the EmpID",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 103740200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the user should see the Filtered Employee Details",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29862000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 69008499
             }
           }
         ],

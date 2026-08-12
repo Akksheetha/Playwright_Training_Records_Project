@@ -16,4 +16,10 @@ Feature Description
               And the user select the udemy
              Then the user should see the udemy Training Typerecords
 
+        Scenario: Filter records by EMP ID
+             When the user click the EMP ID Search
+              And the user typle the EmpID
+             Then the user should see the Filtered Employee Details
+
+
 

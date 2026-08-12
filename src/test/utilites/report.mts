@@ -1,4 +1,4 @@
-import * as report from "multiple-cucumber-html-reporter";
+const report = require("multiple-cucumber-html-reporter");
 import * as os from "os";
 
 report.generate({

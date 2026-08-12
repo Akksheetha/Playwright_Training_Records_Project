@@ -1,6 +1,7 @@
 {
     "filter":{
         "projectName":"ABC",
-        "TrainingType":"Udemy"
+        "TrainingType":"Udemy",
+        "empID":"EMP003"
     }
 }

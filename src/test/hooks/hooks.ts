@@ -3,14 +3,16 @@ import { Browser, chromium } from "@playwright/test";
 import { customWorld } from "../world/customWorrld";
 import { Status } from "@cucumber/cucumber";
 import { filterPage } from "../page/filterPage";
+import { AddPage } from "../page/AddPage";
 import { editPage } from "../page/editPage";
 import {deletePage} from "../page/deletPage";
+import { HomePage } from "../page/homepage";
 setDefaultTimeout(30 * 1000);
 
 
 let browser:Browser
 BeforeAll(async()=>{
-    browser= await chromium.launch({headless:true})
+    browser= await chromium.launch({headless:false})
 })
 
 Before(async function(this:customWorld){
@@ -18,9 +20,10 @@ Before(async function(this:customWorld){
     this.context=await this.browser.newContext()
     this.page= await this.context.newPage()
     this.filter=new filterPage(this.page)
+    this.addpage=new AddPage(this.page);
     this.edit = new editPage(this.page);
     this.delete=new deletePage(this.page);
-
+    this.homePage = new HomePage(this.page)
 })
 
 After(async function(this:customWorld,{result ,pickle}){
