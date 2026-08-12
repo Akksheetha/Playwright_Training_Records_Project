@@ -1,112 +1,86 @@
 [
   {
-    "description": "",
+    "description": "Feature Description",
     "elements": [
       {
         "description": "",
-        "id": "add-training---employee-training-records;add-training-with-valid-training-details",
+        "id": "jeevapranesh_16-07-2026_filter-functiomality_updated_18-07-2026;filter-records-by-project-name",
         "keyword": "Scenario",
-        "line": 7,
-        "name": "Add training with valid training details",
+        "line": 9,
+        "name": "Filter records by Project Name",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 262429500
-            },
-            "keyword": "Before",
-            "hidden": true
+              "duration": 274417199
+            }
           },
           {
-            "result": {
-              "status": "passed",
-              "duration": 1899028400
-            },
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
+            "line": 7,
             "name": "the user launch the application",
             "match": {
               "location": "src\\test\\steps\\filterStep.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2622936700
             }
           },
           {
-            "result": {
-              "status": "passed",
-              "duration": 151681200
-            },
             "arguments": [],
             "keyword": "When ",
-            "line": 8,
-            "name": "user clicks the Add button",
-            "match": {
-              "location": "src\\test\\steps\\AddStep.ts:6"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 1098385800
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "user enter the training details from the JSON file",
-            "match": {
-              "location": "src\\test\\steps\\AddStep.ts:10"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 748854600
-            },
-            "arguments": [],
-            "keyword": "And ",
             "line": 10,
-            "name": "user click on the ADD button",
+            "name": "the user click project Name filter",
             "match": {
-              "location": "src\\test\\steps\\AddStep.ts:18"
+              "location": "src\\test\\steps\\filterStep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 152772700
             }
           },
           {
-            "result": {
-              "status": "passed",
-              "duration": 1482515800
-            },
             "arguments": [],
             "keyword": "And ",
             "line": 11,
-            "name": "user search the employee ID from the JSON file",
+            "name": "the user select the project of ABC",
             "match": {
-              "location": "src\\test\\steps\\AddStep.ts:22"
+              "location": "src\\test\\steps\\filterStep.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 380479300
             }
           },
           {
-            "result": {
-              "status": "passed",
-              "duration": 16070600
-            },
             "arguments": [],
             "keyword": "Then ",
             "line": 12,
-            "name": "the employee ID should match the JSON employee ID",
+            "name": "the user should see the ABC project Name",
             "match": {
-              "location": "src\\test\\steps\\AddStep.ts:26"
+              "location": "src\\test\\steps\\filterStep.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21458599
             }
           },
           {
+            "keyword": "After",
+            "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 59417699
-            },
-            "keyword": "After",
-            "hidden": true
+              "duration": 132690200
+            }
           }
         ],
         "tags": [
           {
-            "name": "@Janani",
+            "name": "@jeeva",
             "line": 1
           }
         ],
@@ -114,112 +88,183 @@
       },
       {
         "description": "",
-        "id": "add-training---employee-training-records;add-training-without-trainer-name-shows-validation-alert",
+        "id": "jeevapranesh_16-07-2026_filter-functiomality_updated_18-07-2026;filter-records-by-training-type",
         "keyword": "Scenario",
         "line": 14,
-        "name": "Add training without Trainer Name shows validation alert",
+        "name": "Filter records by Training Type",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 289275200
-            },
-            "keyword": "Before",
-            "hidden": true
+              "duration": 251735700
+            }
           },
           {
-            "result": {
-              "status": "passed",
-              "duration": 1856986300
-            },
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
+            "line": 7,
             "name": "the user launch the application",
             "match": {
               "location": "src\\test\\steps\\filterStep.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2499882799
             }
           },
           {
-            "result": {
-              "status": "passed",
-              "duration": 150060600
-            },
             "arguments": [],
             "keyword": "When ",
             "line": 15,
-            "name": "user clicks the Add button",
+            "name": "the user click the Training Type filter",
             "match": {
-              "location": "src\\test\\steps\\AddStep.ts:6"
+              "location": "src\\test\\steps\\filterStep.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131455100
             }
           },
           {
-            "result": {
-              "status": "passed",
-              "duration": 989301299
-            },
             "arguments": [],
             "keyword": "And ",
             "line": 16,
-            "name": "user enter the training details without trainer name from the JSON file",
+            "name": "the user select the udemy",
             "match": {
-              "location": "src\\test\\steps\\AddStep.ts:14"
+              "location": "src\\test\\steps\\filterStep.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 493986500
             }
           },
           {
-            "result": {
-              "status": "passed",
-              "duration": 891965899
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 17,
-            "name": "user click on the ADD button",
-            "match": {
-              "location": "src\\test\\steps\\AddStep.ts:18"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 4170799
-            },
             "arguments": [],
             "keyword": "Then ",
-            "line": 18,
-            "name": "the validation alert \"Trainer Name is required.\" should be displayed",
+            "line": 17,
+            "name": "the user should see the udemy Training Typerecords",
             "match": {
-              "location": "src\\test\\steps\\AddStep.ts:30"
+              "location": "src\\test\\steps\\filterStep.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17157199
             }
           },
           {
+            "keyword": "After",
+            "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 61225300
-            },
-            "keyword": "After",
-            "hidden": true
+              "duration": 83121599
+            }
           }
         ],
         "tags": [
           {
-            "name": "@Janani",
+            "name": "@jeeva",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jeevapranesh_16-07-2026_filter-functiomality_updated_18-07-2026;filter-records-by-emp-id",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Filter records by EMP ID",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 283468199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user launch the application",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2073897600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the user click the EMP ID Search",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95381199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the user typle the EmpID",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 103740200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the user should see the Filtered Employee Details",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29862000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 69008499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jeeva",
             "line": 1
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "add-training---employee-training-records",
+    "id": "jeevapranesh_16-07-2026_filter-functiomality_updated_18-07-2026",
     "line": 2,
     "keyword": "Feature",
-    "name": "Add Training - Employee Training Records",
+    "name": "JeevaPranesh_16-07-2026_Filter functiomality_updated_18-07-2026",
     "tags": [
       {
-        "name": "@Janani",
+        "name": "@jeeva",
         "line": 1
       }
     ],
-    "uri": "src\\test\\feature\\Add.feature"
+    "uri": "src\\test\\feature\\filter.feature"
   }
 ]

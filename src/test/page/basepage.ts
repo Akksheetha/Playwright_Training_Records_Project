@@ -28,5 +28,8 @@ export class basepage{
      async isVisible(locator: Locator): Promise<boolean> {
         return await locator.isVisible();
     }
+    async selectoption(locator:Locator,value:string){
+        await locator.selectOption(value)
+    }
 
 }
