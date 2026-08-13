@@ -8,7 +8,8 @@
     "rerun": "cross-env ENV=qa cucumber-js @rerun/rerun.txt",
     "debug": "cross-env PWDEBUG=1 cucumber-js",
     "Vithya": "cross-env ENV=qa cucumber-js --tags \"@Vithya\"",
-    "Darshan": "cross-env ENV=qa cucumber-js --tags \"@Darshan\""
+    "Darshan": "cross-env ENV=qa cucumber-js --tags @Darshan",
+    "posttest": "node generate-report.js"
   },
   "keywords": [],
   "author": "",
