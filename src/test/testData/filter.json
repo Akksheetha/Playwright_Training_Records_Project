@@ -2,6 +2,7 @@
     "filter":{
         "projectName":"ABC",
         "TrainingType":"Udemy",
-        "empID":"EMP003"
+        "empID":"EMP003",
+        "InvalidEmpID":"john123"
     }
 }

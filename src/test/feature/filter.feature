@@ -21,5 +21,10 @@ Feature Description
               And the user typle the EmpID
              Then the user should see the Filtered Employee Details
 
+        Scenario: Filter recoreds by giving invalid EMP ID
+             When the user click the EMP ID Search
+              And the user type the Invalid EmpID
+             Then the user should see the Zero records
+
 
 

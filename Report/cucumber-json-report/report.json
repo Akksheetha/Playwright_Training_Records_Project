@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 274417199
+              "duration": 224667300
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 7,
             "name": "the user launch the application",
             "match": {
-              "location": "src\\test\\steps\\filterStep.ts:7"
+              "location": "src\\test\\steps\\filterStep.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 2622936700
+              "duration": 2641454399
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 10,
             "name": "the user click project Name filter",
             "match": {
-              "location": "src\\test\\steps\\filterStep.ts:11"
+              "location": "src\\test\\steps\\filterStep.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 152772700
+              "duration": 141484599
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 11,
             "name": "the user select the project of ABC",
             "match": {
-              "location": "src\\test\\steps\\filterStep.ts:15"
+              "location": "src\\test\\steps\\filterStep.ts:16"
             },
             "result": {
               "status": "passed",
-              "duration": 380479300
+              "duration": 445415799
             }
           },
           {
@@ -62,11 +62,11 @@
             "line": 12,
             "name": "the user should see the ABC project Name",
             "match": {
-              "location": "src\\test\\steps\\filterStep.ts:19"
+              "location": "src\\test\\steps\\filterStep.ts:20"
             },
             "result": {
               "status": "passed",
-              "duration": 21458599
+              "duration": 8737499
             }
           },
           {
@@ -74,7 +74,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 132690200
+              "duration": 22304500
             }
           }
         ],
@@ -98,7 +98,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 251735700
+              "duration": 94230700
             }
           },
           {
@@ -107,11 +107,11 @@
             "line": 7,
             "name": "the user launch the application",
             "match": {
-              "location": "src\\test\\steps\\filterStep.ts:7"
+              "location": "src\\test\\steps\\filterStep.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 2499882799
+              "duration": 2359077499
             }
           },
           {
@@ -120,11 +120,11 @@
             "line": 15,
             "name": "the user click the Training Type filter",
             "match": {
-              "location": "src\\test\\steps\\filterStep.ts:25"
+              "location": "src\\test\\steps\\filterStep.ts:26"
             },
             "result": {
               "status": "passed",
-              "duration": 131455100
+              "duration": 138915800
             }
           },
           {
@@ -133,11 +133,11 @@
             "line": 16,
             "name": "the user select the udemy",
             "match": {
-              "location": "src\\test\\steps\\filterStep.ts:29"
+              "location": "src\\test\\steps\\filterStep.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 493986500
+              "duration": 453310999
             }
           },
           {
@@ -146,11 +146,11 @@
             "line": 17,
             "name": "the user should see the udemy Training Typerecords",
             "match": {
-              "location": "src\\test\\steps\\filterStep.ts:33"
+              "location": "src\\test\\steps\\filterStep.ts:34"
             },
             "result": {
               "status": "passed",
-              "duration": 17157199
+              "duration": 12043299
             }
           },
           {
@@ -158,7 +158,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 83121599
+              "duration": 19433699
             }
           }
         ],
@@ -182,7 +182,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 283468199
+              "duration": 92645100
             }
           },
           {
@@ -191,11 +191,11 @@
             "line": 7,
             "name": "the user launch the application",
             "match": {
-              "location": "src\\test\\steps\\filterStep.ts:7"
+              "location": "src\\test\\steps\\filterStep.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 2073897600
+              "duration": 1951638600
             }
           },
           {
@@ -204,11 +204,11 @@
             "line": 20,
             "name": "the user click the EMP ID Search",
             "match": {
-              "location": "src\\test\\steps\\filterStep.ts:41"
+              "location": "src\\test\\steps\\filterStep.ts:42"
             },
             "result": {
               "status": "passed",
-              "duration": 95381199
+              "duration": 83972799
             }
           },
           {
@@ -217,11 +217,11 @@
             "line": 21,
             "name": "the user typle the EmpID",
             "match": {
-              "location": "src\\test\\steps\\filterStep.ts:45"
+              "location": "src\\test\\steps\\filterStep.ts:46"
             },
             "result": {
               "status": "passed",
-              "duration": 103740200
+              "duration": 98526400
             }
           },
           {
@@ -230,11 +230,11 @@
             "line": 22,
             "name": "the user should see the Filtered Employee Details",
             "match": {
-              "location": "src\\test\\steps\\filterStep.ts:49"
+              "location": "src\\test\\steps\\filterStep.ts:50"
             },
             "result": {
               "status": "passed",
-              "duration": 29862000
+              "duration": 20667099
             }
           },
           {
@@ -242,7 +242,91 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 69008499
+              "duration": 13774799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jeeva",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jeevapranesh_16-07-2026_filter-functiomality_updated_18-07-2026;filter-recoreds-by-giving-invalid-emp-id",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Filter recoreds by giving invalid EMP ID",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 87148000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user launch the application",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1939265200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "the user click the EMP ID Search",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 90919499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "the user type the Invalid EmpID",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48174499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "the user should see the Zero records",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5093700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9935000
             }
           }
         ],

@@ -12,7 +12,7 @@ setDefaultTimeout(30 * 1000);
 
 let browser:Browser
 BeforeAll(async()=>{
-    browser= await chromium.launch({headless:false})
+    browser= await chromium.launch({headless:true})
 })
 
 Before(async function(this:customWorld){

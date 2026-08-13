@@ -1,3 +1,4 @@
+import { filterPage } from './../page/filterPage';
 import { expect } from '@playwright/test';
 
 import { customWorld } from './../world/customWorrld';
@@ -53,4 +54,15 @@ Then('the user should see the Filtered Employee Details', async function (this:c
    console.log(actualText)
    expect(act).toHaveText("EMP003")
 });
+
+When('the user type the Invalid EmpID', async function (this:customWorld) {
+  await this.filter.InvalidempIDtext_enter()
+});
+
+Then('the user should see the Zero records', async function (this:customWorld) {
+  let act=await this.filter.countofEmpRecord()
+  expect (act).toBe(true)
+
+});
+
 
