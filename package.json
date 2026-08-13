@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cross-env ENV=qa cucumber-js",
+    "test": "cross-env ENV=qa cucumber-js --format json:Report/cucumber-report.json",
     "rerun": "cross-env ENV=qa cucumber-js @rerun/rerun.txt",
     "debug": "cross-env PWDEBUG=1 cucumber-js",
     "Vithya": "cross-env ENV=qa cucumber-js --tags \"@Vithya\"",
