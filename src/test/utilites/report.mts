@@ -7,7 +7,7 @@ report.generate({
   reportName: "Employee Records Automation Report",
   pageTitle: "Employee Records Test Report",
   displayDuration: true,
-  openReportInBrowser: true,
+  openReportInBrowser: false,
 
   metadata: {
     browser: {
