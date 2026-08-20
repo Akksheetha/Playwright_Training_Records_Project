@@ -1,8 +1,8 @@
-const report = require("multiple-cucumber-html-reporter");
+import report from "multiple-cucumber-html-reporter";
 import * as os from "os";
 
 report.generate({
-  jsonDir: "./Report/cucumber-json",
+  jsonDir: "./Report/cucumber-json-report",
   reportPath: "./Report/reports/html",
   reportName: "Employee Records Automation Report",
   pageTitle: "Employee Records Test Report",
