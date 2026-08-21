@@ -8,10 +8,9 @@
     "test": "cross-env ENV=qa cucumber-js",
     "rerun": "cross-env ENV=qa cucumber-js @rerun/rerun.txt",
     "debug": "cross-env PWDEBUG=1 cucumber-js",
-    "Vithya": "cross-env ENV=qa cucumber-js --tags \"@Vithya\"",
-    "test:jeeva": "cross-env ENV=qa cucumber-js --tags \"@jeeva\"",
-    "Darshan": "cross-env ENV=qa cucumber-js --tags \"@Darshan\"",
-    "Janani": "cross-env ENV=qa cucumber-js --tags \"@Janani\""
+    "posttest": "multiple-cucumber-html-reporter-generate",
+    "allure:generate": "allure generate Report/allure/report/allure-results -o Report/allure-report --clean",
+    "Vithya": "cross-env ENV=qa cucumber-js --tags \"@Vithya\""
   },
   "keywords": [],
   "author": "",
