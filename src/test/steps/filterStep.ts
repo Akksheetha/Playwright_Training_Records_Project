@@ -1,3 +1,4 @@
+import { filterPage } from './../page/filterPage';
 import { expect } from '@playwright/test';
 
 import { customWorld } from './../world/customWorrld';
@@ -35,3 +36,33 @@ Then('the user should see the udemy Training Typerecords', async function (this:
    await act.waitFor({state:"visible"})
    expect (act).toHaveText(filter.filter.TrainingType)
 });
+
+
+
+When('the user click the EMP ID Search', async function (this:customWorld) {
+  await this.filter.clickEmpID()
+});
+
+When('the user typle the EmpID', async function (this:customWorld) {
+  await this.filter.empIDtext_enter()
+});
+
+Then('the user should see the Filtered Employee Details', async function (this:customWorld) {
+  let act = await this.filter.EMPID_TEXT()
+   await act.waitFor({state:"visible"})
+       const actualText = await act.textContent();
+   console.log(actualText)
+   expect(act).toHaveText("EMP003")
+});
+
+When('the user type the Invalid EmpID', async function (this:customWorld) {
+  await this.filter.InvalidempIDtext_enter()
+});
+
+Then('the user should see the Zero records', async function (this:customWorld) {
+  let act=await this.filter.countofEmpRecord()
+  expect (act).toBe(true)
+
+});
+
+

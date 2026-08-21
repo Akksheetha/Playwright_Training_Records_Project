@@ -1,4 +1,5 @@
-Feature:Filter functiomality
+@jeeva
+Feature:JeevaPranesh_16-07-2026_Filter functiomality_updated_18-07-2026
 
 
 Feature Description
@@ -14,5 +15,16 @@ Feature Description
              When the user click the Training Type filter
               And the user select the udemy
              Then the user should see the udemy Training Typerecords
+
+        Scenario: Filter records by EMP ID
+             When the user click the EMP ID Search
+              And the user typle the EmpID
+             Then the user should see the Filtered Employee Details
+
+        Scenario: Filter recoreds by giving invalid EMP ID
+             When the user click the EMP ID Search
+              And the user type the Invalid EmpID
+             Then the user should see the Zero records
+
 
 

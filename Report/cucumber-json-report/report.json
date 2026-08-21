@@ -1,72 +1,72 @@
 [
   {
-    "description": "Description:\n    As a user,\n    I want to delete a trainee training record.",
+    "description": "Feature Description",
     "elements": [
       {
         "description": "",
-        "id": "vithya_20-07-2026_delete-the-trainee-training-record-in-the-site;delete-trainee-training-record-successfully",
+        "id": "jeevapranesh_16-07-2026_filter-functiomality_updated_18-07-2026;filter-records-by-project-name",
         "keyword": "Scenario",
-        "line": 11,
-        "name": "Delete trainee training record successfully",
+        "line": 9,
+        "name": "Filter records by Project Name",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 248777899
+              "duration": 224667300
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 9,
-            "name": "user is on the homepage of the site",
+            "line": 7,
+            "name": "the user launch the application",
             "match": {
-              "location": "src\\test\\steps\\editSteps.ts:10"
+              "location": "src\\test\\steps\\filterStep.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 2789050400
+              "duration": 2641454399
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 13,
-            "name": "User filters the training record by employee name",
+            "line": 10,
+            "name": "the user click project Name filter",
             "match": {
-              "location": "src\\test\\steps\\deleteStep.ts:7"
+              "location": "src\\test\\steps\\filterStep.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 84944899
+              "duration": 141484599
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 14,
-            "name": "User clicks the delete icon of the filtered record",
+            "line": 11,
+            "name": "the user select the project of ABC",
             "match": {
-              "location": "src\\test\\steps\\deleteStep.ts:12"
+              "location": "src\\test\\steps\\filterStep.ts:16"
             },
             "result": {
               "status": "passed",
-              "duration": 104944199
+              "duration": 445415799
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 15,
-            "name": "Training record should be deleted successfully",
+            "line": 12,
+            "name": "the user should see the ABC project Name",
             "match": {
-              "location": "src\\test\\steps\\deleteStep.ts:17"
+              "location": "src\\test\\steps\\filterStep.ts:20"
             },
             "result": {
               "status": "passed",
-              "duration": 2914755800
+              "duration": 8737499
             }
           },
           {
@@ -74,29 +74,281 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 30842900
+              "duration": 22304500
             }
           }
         ],
         "tags": [
           {
-            "name": "@Vithya",
+            "name": "@jeeva",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jeevapranesh_16-07-2026_filter-functiomality_updated_18-07-2026;filter-records-by-training-type",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Filter records by Training Type",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 94230700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user launch the application",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2359077499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the user click the Training Type filter",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 138915800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the user select the udemy",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 453310999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the user should see the udemy Training Typerecords",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12043299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 19433699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jeeva",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jeevapranesh_16-07-2026_filter-functiomality_updated_18-07-2026;filter-records-by-emp-id",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Filter records by EMP ID",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 92645100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user launch the application",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1951638600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the user click the EMP ID Search",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 83972799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the user typle the EmpID",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 98526400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the user should see the Filtered Employee Details",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20667099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13774799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jeeva",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "jeevapranesh_16-07-2026_filter-functiomality_updated_18-07-2026;filter-recoreds-by-giving-invalid-emp-id",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Filter recoreds by giving invalid EMP ID",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 87148000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user launch the application",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1939265200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "the user click the EMP ID Search",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 90919499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "the user type the Invalid EmpID",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48174499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "the user should see the Zero records",
+            "match": {
+              "location": "src\\test\\steps\\filterStep.ts:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5093700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9935000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jeeva",
             "line": 1
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "vithya_20-07-2026_delete-the-trainee-training-record-in-the-site",
+    "id": "jeevapranesh_16-07-2026_filter-functiomality_updated_18-07-2026",
     "line": 2,
     "keyword": "Feature",
-    "name": "Vithya_20-07-2026_Delete the trainee training record in the site",
+    "name": "JeevaPranesh_16-07-2026_Filter functiomality_updated_18-07-2026",
     "tags": [
       {
-        "name": "@Vithya",
+        "name": "@jeeva",
         "line": 1
       }
     ],
-    "uri": "src\\test\\feature\\delete.feature"
+    "uri": "src\\test\\feature\\filter.feature"
   }
 ]
